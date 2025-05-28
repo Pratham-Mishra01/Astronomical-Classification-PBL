@@ -15,8 +15,8 @@ This project aims to automate the classification of astronomical objects—speci
 
 The dataset consists of astronomical survey data with features such as right ascension, declination, photometric magnitudes (u, g, r, i, z), redshift, and class labels.
 
-- **raw_data.csv:** Contains the original features from the astronomical survey.
-- **labeled_data.csv:** Includes class labels for supervised learning (e.g., 0 = Galaxy, 1 = QSO, 2 = Star).
+- **new stellar dataset.csv** Contains the original features from the astronomical survey.
+- **new_stellar_dataset_scaled:** the features are scaled using StandardScalar
 
 ## Results
 
